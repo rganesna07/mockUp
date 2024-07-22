@@ -57,18 +57,4 @@ You can customize the project by updating the following files:
 - **`styles.css`**: Change the styling to fit your design preferences.
 - **`script.js`**: Update the JavaScript logic for additional features or changes.
 
-### Contributing
 
-Contributions are welcome! Please submit a pull request or open an issue to suggest improvements or report bugs.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-### Contact
-
-For any questions or support, please contact [Your Name](mailto:your.email@example.com).
-
----
-
-Feel free to adjust any sections according to your specific needs or preferences!
