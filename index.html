@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Campus Tour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mergen Virtual Campus Tour</h1>
+   
+    </header>
+
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search for colleges..." />
+        <button id="search-btn" onclick="searchColleges()">Search</button>
+    </div>
+    
+    <main>
+        <div id="header-section">
+            <h2>Check out XYZ University!</h2>
+        </div>
+        <div id="map">
+            <button class="rating-btn" onclick="showOverallRating()">Overall College Rating</button>
+            <button class="location-btn" onclick="showLocation('library')">Library</button>
+            <button class="location-btn" onclick="showLocation('diningHall')">Dining Hall</button>
+            <button class="location-btn" onclick="showLocation('dorms')">Dorms</button>
+            <button class="location-btn" onclick="showLocation('athletics')">Athletics</button>
+            <button class="location-btn" onclick="showLocation('facilities')">Facilities</button>
+            <button class="location-btn" onclick="showLocation('offCampusFood')">Off Campus Food</button>
+            <button class="location-btn" onclick="showLocation('offCampusLife')">Off Campus Life</button>
+
+            
+        </div>
+        <div id="details">
+            <h2 id="location-title">Select a location</h2>
+            <p id="location-description">Click on a location to see details.</p>
+            <div id="ratings" class="hidden">
+                <p id="rating-food">Food: N/A</p>
+                <p id="rating-campus">Campus: N/A</p>
+                <p id="rating-academics">Academics: N/A</p>
+                <p id="rating-athletics">Athletics: N/A</p>
+                <p id="rating-greekLife">Greek Life: N/A</p>
+            </div>
+            <button id="virtual-tour-btn" class="hidden" onclick="startVirtualTour()">Take Virtual Tour</button>
+        </div>
+    </main>
+    
+
+
+    <div id="chat-container">
+        <div id="chat-icon" onclick="toggleChat()">Talk with an AI College Counselor 💬</div>
+        <div id="chat-box" class="hidden">
+            <div id="chat-header">
+                <span>Welcome, how can we help you today?</span>
+                <button onclick="toggleChat()">✖️</button>
+            </div>
+            <div id="chat-content">
+                <p>Welcome! How can we assist you today?</p>
+                <div id="messages"></div>
+                <div id="chat-input">
+                    <input type="text" id="message-input" placeholder="Type your message..." />
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
