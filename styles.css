@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #6a1b9a; /* Purple header background */
+    background-color: #6a1b9a;
     color: white;
     padding: 20px;
     text-align: center;
@@ -15,7 +15,7 @@ header {
 
 h1 {
     margin: 0;
-    color: white; /* White color for the header title */
+    color: white; 
 }
 
 main {
@@ -79,11 +79,11 @@ button:hover {
     border-radius: 5px;
     margin-right: 5px;
     font-size: 16px;
-    background-color: #ffcccb; /* Salmon color */
+    background-color: #ffcccb; 
 }
 
 #search-btn {
-    background-color: #ff69b4; /* Hot pink color */
+    background-color: #ff69b4; 
     color: white;
     border: none;
     padding: 8px 12px;
@@ -93,7 +93,7 @@ button:hover {
 }
 
 #search-btn:hover {
-    background-color: #ff1493; /* Darker hot pink color on hover */
+    background-color: #fd0087; 
 }
 
 #map {
